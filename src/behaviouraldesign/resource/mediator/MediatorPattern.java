@@ -7,7 +7,9 @@ public class MediatorPattern {
         Button b2 = new CancelButton(mediator);
         CancelDialog cancelDialog = new CancelDialog();
         AlertDialog alertDialog = new AlertDialog();
-        alertDialog.printMessage("dividing by zero");
-        cancelDialog.printMessage("cancelling operation");
+//        alertDialog.printMessage("dividing by zero");
+//        cancelDialog.printMessage("cancelling operation");
+        b1.click("How u doin?");
+        b2.click("Good!");
     }
 }
